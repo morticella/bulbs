@@ -21,3 +21,5 @@ const bulbsResults = bulbs.subscribe(
         console.log(`Bulb n° ${bulb} is ${switchOn}`)
     }
 )
+
+bulbsResults.unsubscribe()

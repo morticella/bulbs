@@ -13,8 +13,8 @@ const bulbsResults = bulbs.subscribe(
             }   
         }
         switchOn = (count%2 === 0) ? switchOn = false : switchOn = true
-        
         count = 0
+        
         console.log(`Bulb n° ${bulb} is ${switchOn}`)
     }
 )

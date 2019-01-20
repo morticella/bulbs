@@ -3,7 +3,7 @@ import { range } from 'rxjs';
 let switchOn: boolean = false;
 let count: number = 0;
 
-const bulbs = range(1,10)
+const bulbs = range(1,100)
 
 const bulbsResults = bulbs.subscribe(
     bulb => {

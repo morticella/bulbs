@@ -1,10 +1,11 @@
 {
   "name": "bulbs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "devDependencies": {
+    "eslint": "^5.12.1",
     "webpack-cli": "^3.2.1"
   },
   "keywords": [],

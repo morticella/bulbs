@@ -66,7 +66,7 @@ const methods = {
         return a * c
     },
     nama: 'love',
-    love: 'ok ok ok ok ok'
+    love: 'ok ok ok ok ok git'
 }
 
 console.log(methods.test(3,methods.test2(3)));

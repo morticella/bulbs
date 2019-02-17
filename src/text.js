@@ -65,7 +65,8 @@ const methods = {
     test2: function love(a) {
         return a * c
     },
-    nama: 'love'
+    nama: 'love',
+    love: 'ok'
 }
 
 console.log(methods.test(3,methods.test2(3)));
